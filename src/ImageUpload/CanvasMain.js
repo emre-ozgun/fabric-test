@@ -2,7 +2,6 @@ import React from "react";
 import './CanvasMain.css';
 import { fabric } from "fabric";
 import CanvasParameters from "../Parameters/CanvasParameters";
-import EventCardInstructions from "../EventCardInstructions/EventCardInstructions";
 
 const CanvasMain = () => {
 
@@ -137,7 +136,6 @@ const CanvasMain = () => {
       </header>
       <br />
       <section className="canvas-area">
-        {/* {!doesCanvasHaveImg && <EventCardInstructions/>} */}
         <canvas id="c" />
         <CanvasParameters handleAddFormParameterToCanvas={handleAddFormParameterToCanvas} />
       </section>
